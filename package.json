@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://aguiarsistemas.github.io/apps-docs",
+  "homepage": "https://asdocs.vercel.app/apps-docs",
   "scripts": {
     "dev": "vite --port 55000",
     "build": "vite build",
