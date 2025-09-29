@@ -9,7 +9,7 @@ import PoliticaDePrivacidadePageCarrinho from "./pages/as-carrinho/PoliticaDePri
 
 function App() {
   return (
-    <Router basename="/apps-docs">
+    <Router>
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
