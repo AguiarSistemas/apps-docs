@@ -27,7 +27,7 @@ const PoliticaDePrivacidadePage = () => {
   const breadcrumbItems = [
     {
       label: "As Carrinho",
-      href: "/",
+      href: "/docs",
     },
     {
       label: "Política de Privacidade",

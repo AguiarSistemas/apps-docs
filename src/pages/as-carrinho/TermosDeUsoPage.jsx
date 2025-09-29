@@ -24,7 +24,7 @@ const TermosDeUsoPage = () => {
   const breadcrumbItems = [
     {
       label: "As Carrinho",
-      href: "/",
+      href: "/docs",
     },
     {
       label: "Termos de Uso",

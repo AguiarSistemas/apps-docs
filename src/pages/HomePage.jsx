@@ -149,10 +149,10 @@ const HomePage = () => {
       color: "bg-github-success-subtle",
       textColor: "text-github-success-fg",
       links: [
-        { name: "Termos de Uso", href: "/as-bi/termos-de-uso" },
+        { name: "Termos de Uso", href: "/docs/as-bi/termos-de-uso" },
         {
           name: "Política de Privacidade",
-          href: "/as-bi/politica-de-privacidade",
+          href: "/docs/as-bi/politica-de-privacidade",
         },
       ],
     },
@@ -164,10 +164,10 @@ const HomePage = () => {
       color: "bg-github-success-subtle",
       textColor: "text-github-success-fg",
       links: [
-        { name: "Termos de Uso", href: "/as-carrinho/termos-de-uso" },
+        { name: "Termos de Uso", href: "/docs/as-carrinho/termos-de-uso" },
         {
           name: "Política de Privacidade",
-          href: "/as-carrinho/politica-de-privacidade",
+          href: "/docs/as-carrinho/politica-de-privacidade",
         },
       ],
     },
@@ -332,7 +332,7 @@ const HomePage = () => {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
               <Link
-                to="/as-bi/termos-de-uso"
+                to="/docs/as-bi/termos-de-uso"
                 className="group inline-flex items-center px-8 py-4 bg-github-accent-emphasis/90 backdrop-blur-sm text-white rounded-2xl hover:bg-github-accent-emphasis transition-all duration-300 font-medium shadow-2xl hover:shadow-blue-500/25 transform hover:scale-105"
               >
                 <FileText className="w-6 h-6 mr-3 group-hover:rotate-3 transition-transform duration-300" />

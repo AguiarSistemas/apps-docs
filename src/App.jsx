@@ -8,22 +8,26 @@ import TermosDeUsoPageCarrinho from "./pages/as-carrinho/TermosDeUsoPage";
 import PoliticaDePrivacidadePageCarrinho from "./pages/as-carrinho/PoliticaDePrivacidadePage";
 
 function App() {
+  const basename = import.meta.env.VITE_BASE_PATH || "/";
   return (
-    <Router>
+    <Router basename={basename === "/docs" ? undefined : basename}>
       <Layout>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/as-bi/termos-de-uso" element={<TermosDeUsoPage />} />
+          <Route path="/docs" element={<HomePage />} />
           <Route
-            path="/as-bi/politica-de-privacidade"
+            path="/docs/as-bi/termos-de-uso"
+            element={<TermosDeUsoPage />}
+          />
+          <Route
+            path="/docs/as-bi/politica-de-privacidade"
             element={<PoliticaDePrivacidadePage />}
           />
           <Route
-            path="/as-carrinho/termos-de-uso"
+            path="/docs/as-carrinho/termos-de-uso"
             element={<TermosDeUsoPageCarrinho />}
           />
           <Route
-            path="/as-carrinho/politica-de-privacidade"
+            path="/docs/as-carrinho/politica-de-privacidade"
             element={<PoliticaDePrivacidadePageCarrinho />}
           />
           {/* Adicionar novas rotas aqui no futuro */}

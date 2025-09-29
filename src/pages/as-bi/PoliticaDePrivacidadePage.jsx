@@ -31,7 +31,7 @@ const PoliticaDePrivacidadePage = () => {
   const breadcrumbItems = [
     {
       label: "AS BI",
-      href: "/",
+      href: "/docs",
     },
     {
       label: "Política de Privacidade",

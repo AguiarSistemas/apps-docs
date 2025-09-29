@@ -64,7 +64,7 @@ const Header = () => {
               aria-label="Navegação principal"
             >
               <Link
-                to="/"
+                to="/docs"
                 className="github-button px-3 py-2 rounded-md text-sm font-medium text-github-fg-default hover:bg-github-canvas-subtle transition-colors duration-200 flex items-center"
               >
                 <Home className="w-4 h-4 mr-2" />
@@ -97,14 +97,14 @@ const Header = () => {
                       AS BI - Business Intelligence
                     </div>
                     <Link
-                      to="/as-bi/termos-de-uso"
+                      to="/docs/as-bi/termos-de-uso"
                       className="flex items-center px-4 py-3 text-sm text-github-fg-default hover:bg-github-canvas-subtle transition-colors duration-200"
                     >
                       <FileText className="w-4 h-4 mr-3 text-github-fg-muted" />
                       Termos de Uso
                     </Link>
                     <Link
-                      to="/as-bi/politica-de-privacidade"
+                      to="/docs/as-bi/politica-de-privacidade"
                       className="flex items-center px-4 py-3 text-sm text-github-fg-default hover:bg-github-canvas-subtle transition-colors duration-200"
                     >
                       <FileText className="w-4 h-4 mr-3 text-github-fg-muted" />
@@ -116,14 +116,14 @@ const Header = () => {
                       AS Carrinho - Pré-Venda
                     </div>
                     <Link
-                      to="/as-carrinho/termos-de-uso"
+                      to="/docs/as-carrinho/termos-de-uso"
                       className="flex items-center px-4 py-3 text-sm text-github-fg-default hover:bg-github-canvas-subtle transition-colors duration-200"
                     >
                       <FileText className="w-4 h-4 mr-3 text-github-fg-muted" />
                       Termos de Uso
                     </Link>
                     <Link
-                      to="/as-carrinho/politica-de-privacidade"
+                      to="/docs/as-carrinho/politica-de-privacidade"
                       className="flex items-center px-4 py-3 text-sm text-github-fg-default hover:bg-github-canvas-subtle transition-colors duration-200"
                     >
                       <FileText className="w-4 h-4 mr-3 text-github-fg-muted" />
@@ -182,7 +182,7 @@ const Header = () => {
             <div className="max-w-7xl mx-auto px-4 py-4">
               <nav className="space-y-2" aria-label="Navegação móvel">
                 <Link
-                  to="/"
+                  to="/docs"
                   className="flex items-center px-3 py-3 text-github-fg-default hover:bg-github-canvas-subtle rounded-lg transition-colors duration-200"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
@@ -195,7 +195,7 @@ const Header = () => {
                     AS BI - Business Intelligence
                   </div>
                   <Link
-                    to="/as-bi/termos-de-uso"
+                    to="/docs/as-bi/termos-de-uso"
                     className="flex items-center px-3 py-3 text-github-fg-default hover:bg-github-canvas-subtle rounded-lg transition-colors duration-200 ml-4"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -203,7 +203,7 @@ const Header = () => {
                     Termos de Uso
                   </Link>
                   <Link
-                    to="/as-bi/politica-de-privacidade"
+                    to="/docs/as-bi/politica-de-privacidade"
                     className="flex items-center px-3 py-3 text-github-fg-default hover:bg-github-canvas-subtle rounded-lg transition-colors duration-200 ml-4"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -216,7 +216,7 @@ const Header = () => {
                     AS Carrinho - Pré-Venda
                   </div>
                   <Link
-                    to="/as-carrinho/termos-de-uso"
+                    to="/docs/as-carrinho/termos-de-uso"
                     className="flex items-center px-3 py-3 text-github-fg-default hover:bg-github-canvas-subtle rounded-lg transition-colors duration-200 ml-4"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -224,7 +224,7 @@ const Header = () => {
                     Termos de Uso
                   </Link>
                   <Link
-                    to="/as-carrinho/politica-de-privacidade"
+                    to="/docs/as-carrinho/politica-de-privacidade"
                     className="flex items-center px-3 py-3 text-github-fg-default hover:bg-github-canvas-subtle rounded-lg transition-colors duration-200 ml-4"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >

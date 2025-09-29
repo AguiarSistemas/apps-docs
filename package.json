@@ -3,13 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://asdocs.vercel.app/apps-docs",
   "scripts": {
     "dev": "vite --port 55000",
     "build": "vite build",
+    "build:gh": "VITE_BASE_PATH=/docs/ vite build",
+    "build:static": "VITE_RELATIVE=true vite build",
     "start": "vite",
-    "predeploy": "yarn build",
+    "predeploy": "yarn build:gh",
     "deploy": "gh-pages -d dist",
+    "preview:gh": "npx serve dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
