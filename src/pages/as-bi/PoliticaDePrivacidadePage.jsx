@@ -436,7 +436,7 @@ const PoliticaDePrivacidadePage = () => {
             </div>
 
             <Link
-              to="/as-bi/termos-de-uso"
+              to="/docs/as-bi/termos-de-uso"
               className="text-github-accent-fg hover:text-github-accent-emphasis transition-colors duration-200 flex items-center"
             >
               <span>Termos de Uso</span>
@@ -475,7 +475,7 @@ const PoliticaDePrivacidadePage = () => {
             </Link>
 
             <Link
-              to="/as-bi/termos-de-uso"
+              to="/docs/as-bi/termos-de-uso"
               className="bg-github-accent-emphasis hover:bg-blue-700 text-white rounded-lg px-4 py-2 transition-colors duration-200 flex items-center"
             >
               <span>Termos de Uso</span>
